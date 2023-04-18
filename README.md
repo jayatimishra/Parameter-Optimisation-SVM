@@ -40,3 +40,4 @@
 
 Graph of Accuracy per 1000 iterations for Sample 5:
 
+![alt text](https://github.com/jayatimishra/Parameter-Optimisation-SVM/blob/main/Screenshot%202023-04-19%20at%202.42.36%20AM.png)
