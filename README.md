@@ -7,7 +7,12 @@
 |-----------------------|--------|
 | Number of Attributes: | 25     |
 
----
+**Parameter Grid Used**
+kernel: 'linear', 'poly', 'rbf', 'sigmoid'
+Penalty parameter C: 0.001, 0.01, 0.1, 1, 10 
+gamma: ['scale', 'auto'] + list(np.logspace(-3, 3, 7))  
+
+--
  
  | Sample Number | Best Accuracy | Kernel | C  | gamma |
 |----------|---------------|--------|-----|-------|
@@ -22,11 +27,11 @@
 | 9        | 0.783333        | rbf    | 1.000 | 0.1   |
 | 10       | 0.773333        | rbf    | 1.000 | 0.001 |
 
----
+--
 
 **Sample 5 gives the Best SVM accuracy with params: rbf,1.000,0.1 for Kernel,C and Gamma respectively**
 
----
+--
 
 Graph of Accuracy per 1000 iterations for Sample 5:
 
