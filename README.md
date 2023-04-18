@@ -11,9 +11,11 @@
 
 **Parameter Grid Used**
 ---
-| kernel  | 'linear', 'poly', 'rbf', 'sigmoid' |
-| C       | 0.001, 0.01, 0.1, 1, 10    |
-| gamma   |['scale', 'auto'] + list(np.logspace(-3, 3, 7))   |
+|Hyperparameter         |Values                |
+|-----------------------|----------------------|
+| kernel                | 'linear', 'poly', 'rbf', 'sigmoid' |
+| C                     | 0.001, 0.01, 0.1, 1, 10    |
+| gamma                 |['scale', 'auto'] + list(np.logspace(-3, 3, 7))   |
 
 ---
  
